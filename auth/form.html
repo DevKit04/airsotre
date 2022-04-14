@@ -11,19 +11,19 @@
 
 	<div class="container">
 		
-		<form class="form">
+		<form class="form" method="POST" action="connect.php">
 			
 			<h1>Пройдите<br>регистрацию</h1>
 
-			<input type="text" placeholder="Имя" class="name">
+			<input type="text" placeholder="Имя" class="name" name="name">
 			
-			<input type="text" placeholder="Фамилия" class="surname">
+			<input type="text" placeholder="Фамилия" class="surname" name="surname">
 
-			<input type="text" placeholder="Логин" class="login">
+			<input type="text" placeholder="Логин" class="login" name="login">
 
-			<input type="text" placeholder="Пароль" class="password">
+			<input type="text" placeholder="Пароль" class="password" name="password">
 
-			<button class="submit">Пройти регистрацию</button>
+			<input type="submit" class="submit" value="Отправить данные">
 		
 		</form>
 

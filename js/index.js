@@ -27,6 +27,8 @@ for(let i = 0; i < 16; i++){
 
 	let app = document.createElement('div');
 
+	app.textContent = `App ${i+1}`;
+
 	app.classList.add('app');
 
 	apps.appendChild(app);
