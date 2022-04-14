@@ -26,10 +26,26 @@ body{
 	transition-duration:0.75s;
 }
 .userInfo{
+	width:100vw;
 	height:10vh;
 	display:flex;
 	justify-content:space-around;
 	align-items:center;
+}
+.appCategories{
+	width:100vw;
+	height:90vh;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	flex-direction:column;
+}
+.appCategories a{
+	width:225px;
+	color:rgb(255,255,255);
+	margin-bottom:20px;
+	font-size:32px;
+	text-decoration:none;
 }
 .user_logo{
 	width:50px;
@@ -46,8 +62,11 @@ body{
 	border:1px solid #fff;
 }
 .closeMenu{
+	background:url(cross.png);
+	background-size:cover;
 	width:50px;
 	height:50px;
+	border:none;
 }
 .menuOpen{
 	left:0vw;
@@ -59,19 +78,36 @@ body{
 	justify-content:space-around;
 }
 .sideMenuBtn{
+	background:url(menu.png);
+	background-size:cover;
 	width:50px;
 	height:50px;
 	border:none;
 }
 .appName{
-	width:60vw;
+	width:50vw;
 	height:50px;
 	padding:1rem;
 	font-size:24px;
+	border-radius:10px;
 
 }
 .appSearch{
+	background:url(glass.png);
+	background-size:cover;
 	width:50px;
 	height:50px;
 	border:none;
+}
+.apps{
+	width:100vw;
+	display:grid;
+	justify-items:center;
+	grid-template-columns:repeat(4,1fr);
+	grid-gap:5px;
+}
+.app{
+	width:80px;
+	height:80px;
+	border:1px solid #fff;	
 }
